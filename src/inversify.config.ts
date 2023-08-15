@@ -25,6 +25,7 @@ import Loop from './commands/loop';
 import Move from './commands/move.js';
 import Next from './commands/next.js';
 import NowPlaying from './commands/now-playing.js';
+import NP from './commands/np.js';
 import Pause from './commands/pause.js';
 import Play from './commands/play.js';
 import QueueCommand from './commands/queue.js';
@@ -72,6 +73,7 @@ container.bind<SpotifyAPI>(TYPES.Services.SpotifyAPI).to(SpotifyAPI).inSingleton
   Move,
   Next,
   NowPlaying,
+  NP,
   Pause,
   Play,
   QueueCommand,
